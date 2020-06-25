@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+	background-color: #E4E7EB;
+	color: #4f8a8b;
+	font-family: 'Indie Flower', cursive;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+h1 {
+	color: #575F7D;
+	font-weight: 800;
+	font-size: 32px;
+}
+
+p {
+	color: #575F7D;
+	margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+a:hover{
+	background-color: #ff847c;
+	padding: 16px 32px;
+	border-radius: 50%;
+}
+
+
+.bottom-green{
+	background-color: #4f8a8b;
+	color: white;
+	padding: 16px 24px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+.img-radius{
+	border-radius: 50%;
+	width: 180px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	margin-top: 20px;
+}
+.rocket-img{
+	height: 120px;
+	margin-top: -32px;
+	margin-bottom: -32px; 
+	margin-right: -32px;
+	margin-left: -32px;
+	border-radius: 24px;
+}
+
+.wave-img{
+	width: 600px;
+	height: 120px;
+	margin-top: -32px;
+	margin-bottom: -32px; 
+	margin-right: -32px;
+	margin-left: -32px;
+	border-radius: 24px;
+}
+
+.img-1{
+	border-radius: 4px;
+	width: 60px;
+}
+
+.img-2{
+	border-radius: 4px;
+	width: 54px;
+}
+.img-3{
+	border-radius: 4px;
+	width: 58px;
+	border-radius: 30%;
+}
+
+
+.container-white {
+	background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	padding: 40px;
+	border-radius: 24px;
+	margin: 24px 240px 24px;
+	text-align: center;
+}
+
+.white-container {
+	background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	padding: 24px;
+	border-radius: 24px;
+	margin: 24px 240px 24px;
+	text-align: center;
+}
+
+.container{
+	background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	padding-top: 24px;
+	padding-bottom: 72px;
+	border-radius: 24px;
+	margin: 24px 240px 24px;
+	text-align: center;
+}
+
+.pinkbox1{
+	background-color: #ff847c;
+	margin: -20px -40px 0px;
+	text-align: center;
+}
+
+.pinkbox2{
+	background-color: #ff847c;
+	margin: -20px 0px 0px;
+	text-align: center;
+}
+.bluebox{
+	background-color: #99b898;
+	margin: -20px -40px 0px;
+	text-align: center;
+	font-size:12px;
+}
+
+
+.list-inline {
+	list-style: none;
+    padding-left: 0px;
+    display: inline;
+}
