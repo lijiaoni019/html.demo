@@ -40,6 +40,7 @@ a:hover{
 	width: 180px;
 	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
 	margin-top: 20px;
+	object-fit: cover;
 }
 .rocket-img{
 	height: 120px;
@@ -77,7 +78,7 @@ a:hover{
 
 
 .container-white {
-	background-color: white;
+	background-image: url("images/flower.png");
 	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 	padding: 40px;
 	border-radius: 24px;
@@ -111,8 +112,9 @@ a:hover{
 }
 
 .pinkbox2{
-	background-color: #ff847c;
+	background-image: url("images/flower.png");
 	margin: -20px 0px 0px;
+	padding-bottom: 8px;
 	text-align: center;
 }
 .bluebox{
@@ -127,4 +129,8 @@ a:hover{
 	list-style: none;
     padding-left: 0px;
     display: inline;
+}
+
+.list-inline li:hover{
+color: black;
 }
