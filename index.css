@@ -1,136 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
 body {
-	background-color: #E4E7EB;
-	color: #4f8a8b;
-	font-family: 'Indie Flower', cursive;
-	font-weight: lighter;
-	font-size: 18px;
-}
-
-h1 {
-	color: #575F7D;
-	font-weight: 800;
-	font-size: 32px;
-}
-
-p {
-	color: #575F7D;
-	margin-top: 16px;
-    margin-bottom: 40px;
-}
-
-a:hover{
-	background-color: #ff847c;
-	padding: 16px 32px;
-	border-radius: 50%;
-}
-
-
-.bottom-green{
-	background-color: #4f8a8b;
-	color: white;
-	padding: 16px 24px;
-	border-radius: 8px;
-	text-decoration: none;
-}
-
-.img-radius{
-	border-radius: 50%;
-	width: 180px;
-	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
-	margin-top: 20px;
-	object-fit: cover;
-}
-.rocket-img{
-	height: 120px;
-	margin-top: -32px;
-	margin-bottom: -32px; 
-	margin-right: -32px;
-	margin-left: -32px;
-	border-radius: 24px;
-}
-
-.wave-img{
-	width: 600px;
-	height: 120px;
-	margin-top: -32px;
-	margin-bottom: -32px; 
-	margin-right: -32px;
-	margin-left: -32px;
-	border-radius: 24px;
-}
-
-.img-1{
-	border-radius: 4px;
-	width: 60px;
-}
-
-.img-2{
-	border-radius: 4px;
-	width: 54px;
-}
-.img-3{
-	border-radius: 4px;
-	width: 58px;
-	border-radius: 30%;
-}
-
-
-.container-white {
-	background-image: url("images/flower.png");
-	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-	padding: 40px;
-	border-radius: 24px;
-	margin: 24px 240px 24px;
+	font: 14px "Century Gothic", Futura, sans-serif;
+	margin: 20px;
+  }
+  
+  ol, ul {
+	padding-left: 30px;
+  }
+  
+  .board-row:after {
+	clear: both;
+	content: "";
+	display: table;
+  }
+  
+  .status {
+	margin-bottom: 10px;
+  }
+  
+  .square {
+	background: #fff;
+	border: 1px solid #999;
+	float: left;
+	font-size: 24px;
+	line-height: 34px;
+	height: 34px;
+	margin-right: -1px;
+	margin-top: -1px;
+	padding: 0;
 	text-align: center;
-}
+	width: 34px;
+  }
+   
+  .highlight {
+	font-weight: bold;
+	color:red
+  }
 
-.white-container {
-	background-color: white;
-	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-	padding: 24px;
-	border-radius: 24px;
-	margin: 24px 240px 24px;
-	text-align: center;
-}
-
-.container{
-	background-color: white;
-	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-	padding-top: 24px;
-	padding-bottom: 72px;
-	border-radius: 24px;
-	margin: 24px 240px 24px;
-	text-align: center;
-}
-
-.pinkbox1{
-	background-color: #ff847c;
-	margin: -20px -40px 0px;
-	text-align: center;
-}
-
-.pinkbox2{
-	background-image: url("images/flower.png");
-	margin: -20px 0px 0px;
-	padding-bottom: 8px;
-	text-align: center;
-}
-.bluebox{
-	background-color: #99b898;
-	margin: -20px -40px 0px;
-	text-align: center;
-	font-size:12px;
-}
-
-
-.list-inline {
-	list-style: none;
-    padding-left: 0px;
-    display: inline;
-}
-
-.list-inline li:hover{
-color: black;
-}
+  
+  .square:focus {
+	outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+	background: #ddd;
+  }
+  
+  .game {
+	display: flex;
+	flex-direction: row;
+  }
+  
+  .game-info {
+	margin-left: 20px;
+  }
+  
